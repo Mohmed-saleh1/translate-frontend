@@ -1,0 +1,19 @@
+{
+  "footer": {
+    "companyName": "SA COSMOS",
+    "tagline": "Services d'emploi",
+    "aboutTitle": "À propos de SA Cosmos Trading GmbH",
+    "aboutDescription": "SA Cosmos est plus qu'un tableau d'offres d'emploi, c'est un écosystème dynamique où le talent rencontre l'opportunité. Faites progresser votre carrière avec nous en explorant une multitude d'offres !",
+    "forCandidates": "Pour les candidats",
+    "candidateDashboard": "Tableau de bord des candidats",
+    "jobAlerts": "Alertes d'emploi",
+    "jobDashboard": "Tableau de bord des offres",
+    "myProfile": "Mon profil",
+    "pages": "Pages",
+    "contactUs": "Contactez-nous",
+    "aboutUs": "À propos de nous",
+    "legalNotice": "Avis juridique",
+    "termsAndConditions": "Conditions générales",
+    "privacyPolicy": "Politique de confidentialité"
+  }
+}
