@@ -67,5 +67,16 @@
       "title": "Book Translations",
       "description": "Translate books and manuscripts."
     }
+  },
+  "whyCosmos": {
+    "certifiedTranslation": "Certified Translation",
+    "certifiedTranslationTitle": "Certified Translation",
+    "certifiedTranslationDesc": "Certified translations are for official uses where your receiver requires certification to verify that the translation is complete and accurate",
+    "culturalDiversity": "Cultural Diversity",
+    "culturalDiversityTitle": "Cultural Diversity",
+    "culturalDiversityDesc": "Interpreting and culturally sensitive information provision has been developed in order to reduce barriers to communication with migrants in consultation processes in a way that is tailored to the target group.",
+    "assistRoll": "Assist Roll",
+    "assistRollTitle": "Assist Roll",
+    "assistRollDesc": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from 'de Finibus Bonorum et Malorum'"
   }
 }

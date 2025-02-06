@@ -1,29 +1,82 @@
 {
   "nav": {
-    "home":"",
+    "home": "Startseite",
     "title": "SA COSMOS",
     "subtitle": "Übersetzungsdienste",
     "translate": "SA Übersetzen",
     "about": "Über uns",
-    "contact": "Kontaktieren Sie uns",
+    "contact": "Kontaktiere uns",
     "language": "Deutsch",
-    "quote": "Angebot anfordern"
+    "quote": "Fordern Sie ein Angebot an"
+  },
+  "contactForm": {
+    "heading": "Lassen Sie uns Ihnen helfen",
+    "subHeading": "Holen Sie sich eine kostenlose Beratung von unserem Team",
+    "description": "Sie können uns jederzeit schreiben, und wir werden Ihre Nachrichten so schnell wie möglich beantworten",
+    "logoAlt": "SA COSMOS Logo",
+    "formFields": {
+      "name": "Name*",
+      "namePlaceholder": "Ihr Name",
+      "email": "E-Mail*",
+      "emailPlaceholder": "beispiel@email.com",
+      "contactNumber": "Kontakt Nummer*",
+      "contactNumberPlaceholder": "Ihre Telefonnummer",
+      "message": "Nachricht*",
+      "messagePlaceholder": "Ihre Nachricht hier",
+      "submitButton": "Nachricht senden"
+    }
+  },
+  "contact": {
+    "title": "Kontaktiere uns",
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "submit": "Absenden"
   },
   "footer": {
     "companyName": "SA COSMOS",
-    "tagline": "Stellenangebote",
+    "tagline": "Job-Dienste",
     "aboutTitle": "Über SA Cosmos Trading GmbH",
-    "aboutDescription": "SA Cosmos ist mehr als eine Jobbörse, es ist ein dynamisches Ökosystem, in dem Talent auf Chancen trifft. Bringen Sie Ihre Karriere mit uns voran, während Sie durch eine Vielzahl von Angeboten navigieren!",
-    "forCandidates": "Für Bewerber",
-    "candidateDashboard": "Bewerber-Dashboard",
-    "jobAlerts": "Jobbenachrichtigungen",
+    "aboutDescription": "SA Cosmos ist mehr als ein Job-Board, es ist ein dynamisches Ökosystem, in dem Talent auf Gelegenheit trifft. Erhöhen Sie Ihre Karriere mit uns, während Sie durch eine Vielzahl von Angeboten navigieren!",
+    "forCandidates": "Für Kandidaten",
+    "candidateDashboard": "Kandidaten-Dashboard",
+    "jobAlerts": "Job-Benachrichtigungen",
     "jobDashboard": "Job-Dashboard",
     "myProfile": "Mein Profil",
     "pages": "Seiten",
-    "contactUs": "Kontaktieren Sie uns",
+    "contactUs": "Kontaktiere uns",
     "aboutUs": "Über uns",
     "legalNotice": "Rechtlicher Hinweis",
-    "termsAndConditions": "AGB",
+    "termsAndConditions": "Allgemeine Geschäftsbedingungen",
     "privacyPolicy": "Datenschutzrichtlinie"
+  },
+  "services": {
+    "documentTranslations": {
+      "title": "Dokumentenübersetzungen",
+      "description": "Übersetzen Sie alle Arten von Dokumenten."
+    },
+    "oralTranslation": {
+      "title": "Mündliche Übersetzung",
+      "description": "Professionelle mündliche Übersetzungsdienste."
+    },
+    "translateVideoChat": {
+      "title": "Übersetzung des Video-Chats",
+      "description": "Echtzeit-Übersetzung des Video-Chats."
+    },
+    "bookTranslations": {
+      "title": "Buchübersetzungen",
+      "description": "Übersetzen Sie Bücher und Manuskripte."
+    }
+  },
+  "whyCosmos": {
+    "certifiedTranslation": "Zertifizierte Übersetzung",
+    "certifiedTranslationTitle": "Zertifizierte Übersetzung",
+    "certifiedTranslationDesc": "Zertifizierte Übersetzungen sind für offizielle Zwecke gedacht, bei denen der Empfänger eine Zertifizierung benötigt, um zu überprüfen, dass die Übersetzung vollständig und korrekt ist",
+    "culturalDiversity": "Kulturelle Vielfalt",
+    "culturalDiversityTitle": "Kulturelle Vielfalt",
+    "culturalDiversityDesc": "Die Interpretation und die kultursensible Informationsbereitstellung wurden entwickelt, um die Kommunikationsbarriere mit Migranten in Beratungsprozessen so auf den Zielgruppen anzupassen, dass sie auf sie zugeschnitten ist.",
+    "assistRoll": "Assistenzrolle",
+    "assistRollTitle": "Assistenzrolle",
+    "assistRollDesc": "Der standardisierte Lorem-Ipsum-Text, der seit den 1500er Jahren verwendet wird, wird für Interessierte nachfolgend wiedergegeben. Abschnitte 1.10.32 und 1.10.33 aus 'De Finibus Bonorum et Malorum'"
   }
 }

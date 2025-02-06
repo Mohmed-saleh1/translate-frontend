@@ -67,5 +67,16 @@
       "title": "Traducción de Libros",
       "description": "Traduce libros y manuscritos."
     }
+  },
+  "whyCosmos": {
+    "certifiedTranslation": "Traducción Certificada",
+    "certifiedTranslationTitle": "Traducción Certificada",
+    "certifiedTranslationDesc": "Las traducciones certificadas son para usos oficiales donde tu receptor requiere certificación para verificar que la traducción es completa y precisa",
+    "culturalDiversity": "Diversidad Cultural",
+    "culturalDiversityTitle": "Diversidad Cultural",
+    "culturalDiversityDesc": "Se ha desarrollado la provisión de información interpretativa y culturalmente sensible para reducir barreras a la comunicación con migrantes en procesos de consultas de manera que se adapte al grupo objetivo.",
+    "assistRoll": "Asistencia de Rol",
+    "assistRollTitle": "Asistencia de Rol",
+    "assistRollDesc": "El trozo estándar de Lorem Ipsum utilizado desde los 1500 se reproduce a continuación para aquellos interesados. Las secciones 1.10.32 y 1.10.33 de 'De Finibus Bonorum et Malorum'"
   }
 }
