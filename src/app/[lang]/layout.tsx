@@ -1,26 +1,8 @@
 import { ReactNode } from "react";
-import type { Metadata } from "next";
 import { Locale, i18n } from "../../config/i18n";
-import { getTranslations } from "@/lib/i18n";
 import Footer from "@/components/footer/Footer";
-
-export async function generateStaticParams() {
-  return i18n.locales.map((locale) => ({ lang: locale }));
-}
-
-export async function generateMetadata({
-  params,
-}: {
-  params: { lang: Locale };
-}): Promise<Metadata> {
-  const { lang } = await params;
-  const t = await getTranslations(lang);
-
-  return {
-    title: t.metadata?.title || "Default Title",
-    description: t.metadata?.description || "Default description",
-  };
-}
+import NavigationBar from "@/components/navbar/Navbar";
+import HomePage from "./home/HomePage";
 
 export default async function RootLayout({
   children,
@@ -38,9 +20,16 @@ export default async function RootLayout({
   return (
     <html lang={lang}>
       <body>
-        <header></header>
+        <header>
+          <nav>
+            <NavigationBar lang={lang} />{" "}
+          </nav>
+        </header>
 
-        <main>{children}</main>
+        <main>
+          {" "}
+          <HomePage lang={lang} />
+        </main>
 
         <footer>
           <Footer lang={lang} />

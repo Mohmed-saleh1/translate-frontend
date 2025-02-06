@@ -1,9 +1,3 @@
-import TranslationServices from "@/components/services/TranslationServices";
-
 export default function Home() {
-  return (
-    <div>
-      <TranslationServices />
-    </div>
-  );
+  return <div>{/* <TranslationServices lang={lang} /> */}</div>;
 }

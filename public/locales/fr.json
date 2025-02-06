@@ -1,20 +1,47 @@
 {
+  "nav": {
+    "home": "Accueil",
+    "title": "SA COSMOS",
+    "subtitle": "Services de Traduction",
+    "translate": "SA Traduire",
+    "about": "À propos de nous",
+    "contact": "Contactez-nous",
+    "language": "Français",
+    "quote": "Demander un devis"
+  },
+  "contactForm": {
+    "heading": "Laissez-nous vous aider",
+    "subHeading": "Obtenez une consultation gratuite de notre équipe",
+    "description": "Vous pouvez nous écrire à tout moment et nous répondrons à vos messages dès que possible",
+    "logoAlt": "Logo SA COSMOS",
+    "formFields": {
+      "name": "Nom*",
+      "namePlaceholder": "Votre nom",
+      "email": "E-mail*",
+      "emailPlaceholder": "exemple@email.com",
+      "contactNumber": "Numéro de contact*",
+      "contactNumberPlaceholder": "Votre numéro de contact",
+      "message": "Message*",
+      "messagePlaceholder": "Votre message ici",
+      "submitButton": "Envoyer le message"
+    }
+  },
   "contact": {
-    "title": "Nous Contacter",
+    "title": "Contactez-nous",
     "name": "Nom",
     "email": "E-mail",
     "message": "Message",
-    "submit": "Envoyer"
+    "submit": "Soumettre"
   },
   "footer": {
     "companyName": "SA COSMOS",
-    "tagline": "Services d'emploi",
+    "tagline": "Services de travail",
     "aboutTitle": "À propos de SA Cosmos Trading GmbH",
-    "aboutDescription": "SA Cosmos est plus qu'un tableau d'offres d'emploi, c'est un écosystème dynamique où le talent rencontre l'opportunité. Faites progresser votre carrière avec nous en explorant une multitude d'offres !",
+    "aboutDescription": "SA Cosmos est bien plus qu'un tableau d'offres d'emploi, c'est un écosystème dynamique où le talent rencontre l'opportunité. Élevez votre carrière avec nous en naviguant à travers une variété d'offres !",
     "forCandidates": "Pour les candidats",
     "candidateDashboard": "Tableau de bord des candidats",
-    "jobAlerts": "Alertes d'emploi",
-    "jobDashboard": "Tableau de bord des offres",
+    "jobAlerts": "Alertes emploi",
+    "jobDashboard": "Tableau de bord des offres d'emploi",
     "myProfile": "Mon profil",
     "pages": "Pages",
     "contactUs": "Contactez-nous",
@@ -22,5 +49,23 @@
     "legalNotice": "Avis juridique",
     "termsAndConditions": "Conditions générales",
     "privacyPolicy": "Politique de confidentialité"
+  },
+  "services": {
+    "documentTranslations": {
+      "title": "Traductions de documents",
+      "description": "Traduisez tous types de documents."
+    },
+    "oralTranslation": {
+      "title": "Traduction orale",
+      "description": "Services de traduction orale professionnelle."
+    },
+    "translateVideoChat": {
+      "title": "Traduction vidéo-chat",
+      "description": "Traduction en temps réel pour les chats vidéo."
+    },
+    "bookTranslations": {
+      "title": "Traductions de livres",
+      "description": "Traduisez des livres et manuscrits."
+    }
   }
 }

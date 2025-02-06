@@ -1,13 +1,12 @@
-// app/[lang]/contact/page.tsx
 import { getTranslations } from "@/lib/i18n";
 import ContactPageStyles from "./ContactPage.module.css";
 import Image from "next/image";
 import { Locale } from "@/config/i18n";
-import AnimatedBall from "@/components/AnimatedBall/ball";
 
 interface ContactPageProps {
   params: { lang: Locale };
 }
+
 export default async function ContactPage({ params }: ContactPageProps) {
   const { lang } = await params;
   const t = await getTranslations(lang);
@@ -20,21 +19,15 @@ export default async function ContactPage({ params }: ContactPageProps) {
           alt="Contact Support Team"
           width={1200}
           height={300}
-          // style={{ objectFit: "cover" }}
           layout="responsive"
         />
       </div>
-      <AnimatedBall />
-
       <div className={ContactPageStyles.container}>
         <h1 className={ContactPageStyles.title}>{t.contact.title}</h1>
 
         <div className={ContactPageStyles.subContainer}>
           <p className={ContactPageStyles.subheading}>{t.contact.subheading}</p>
-          <form
-            className={ContactPageStyles.form}
-            // onSubmit={handleSubmit}
-          >
+          <form className={ContactPageStyles.form}>
             <div className={ContactPageStyles.nameContainer}>
               <div className={ContactPageStyles.field}>
                 <label htmlFor="firstName" className={ContactPageStyles.label}>
@@ -83,11 +76,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
               />
             </div>
 
-            <button
-              type="submit"
-              className={ContactPageStyles.submitButton}
-              // disabled={isSubmitting}
-            >
+            <button type="submit" className={ContactPageStyles.submitButton}>
               {t.contact.submit}
             </button>
           </form>

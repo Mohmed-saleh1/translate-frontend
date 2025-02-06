@@ -1,4 +1,14 @@
 {
+  "nav": {
+    "home":"",
+    "title": "SA COSMOS",
+    "subtitle": "Übersetzungsdienste",
+    "translate": "SA Übersetzen",
+    "about": "Über uns",
+    "contact": "Kontaktieren Sie uns",
+    "language": "Deutsch",
+    "quote": "Angebot anfordern"
+  },
   "footer": {
     "companyName": "SA COSMOS",
     "tagline": "Stellenangebote",

@@ -1,19 +1,71 @@
 {
+  "nav": {
+    "home": "Inicio",
+    "title": "SA COSMOS",
+    "subtitle": "Servicios de Traducción",
+    "translate": "SA Traducir",
+    "about": "Sobre nosotros",
+    "contact": "Contáctanos",
+    "language": "Español",
+    "quote": "Solicitar una cotización"
+  },
+  "contactForm": {
+    "heading": "Déjanos ayudarte",
+    "subHeading": "Obtén una consulta gratuita de nuestro equipo",
+    "description": "Puedes escribirnos en cualquier momento y responderemos a tus mensajes lo antes posible",
+    "logoAlt": "Logo de SA COSMOS",
+    "formFields": {
+      "name": "Nombre*",
+      "namePlaceholder": "Tu nombre",
+      "email": "Correo electrónico*",
+      "emailPlaceholder": "ejemplo@email.com",
+      "contactNumber": "Número de contacto*",
+      "contactNumberPlaceholder": "Tu número de contacto",
+      "message": "Mensaje*",
+      "messagePlaceholder": "Tu mensaje aquí",
+      "submitButton": "Enviar mensaje"
+    }
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "submit": "Enviar"
+  },
   "footer": {
     "companyName": "SA COSMOS",
-    "tagline": "Servicios de empleo",
-    "aboutTitle": "Acerca de SA Cosmos Trading GmbH",
-    "aboutDescription": "SA Cosmos es más que una bolsa de trabajo, es un ecosistema dinámico donde el talento se encuentra con la oportunidad. ¡Impulsa tu carrera con nosotros mientras navegas por una gran variedad de ofertas!",
-    "forCandidates": "Para candidatos",
-    "candidateDashboard": "Panel del candidato",
-    "jobAlerts": "Alertas de empleo",
-    "jobDashboard": "Panel de empleos",
+    "tagline": "Servicios de trabajo",
+    "aboutTitle": "Sobre SA Cosmos Trading GmbH",
+    "aboutDescription": "SA Cosmos es más que una bolsa de trabajo, es un ecosistema dinámico donde el talento se encuentra con la oportunidad. ¡Eleva tu carrera con nosotros mientras navegas por una variedad de ofertas!",
+    "forCandidates": "Para Candidatos",
+    "candidateDashboard": "Tablero de Candidatos",
+    "jobAlerts": "Alertas de Trabajo",
+    "jobDashboard": "Tablero de Empleo",
     "myProfile": "Mi perfil",
     "pages": "Páginas",
-    "contactUs": "Contáctenos",
+    "contactUs": "Contáctanos",
     "aboutUs": "Sobre nosotros",
     "legalNotice": "Aviso legal",
     "termsAndConditions": "Términos y condiciones",
     "privacyPolicy": "Política de privacidad"
+  },
+  "services": {
+    "documentTranslations": {
+      "title": "Traducciones de Documentos",
+      "description": "Traduce todo tipo de documentos."
+    },
+    "oralTranslation": {
+      "title": "Traducción Oral",
+      "description": "Servicios de traducción oral profesional."
+    },
+    "translateVideoChat": {
+      "title": "Traducción de Video Chat",
+      "description": "Traducción en tiempo real de video chat."
+    },
+    "bookTranslations": {
+      "title": "Traducción de Libros",
+      "description": "Traduce libros y manuscritos."
+    }
   }
 }

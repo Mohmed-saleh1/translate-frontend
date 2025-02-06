@@ -1,10 +1,30 @@
 {
-  "metadata": {
-    "title": "Contact Us",
-    "description": "Get in touch with us."
+  "nav": {
+    "home": "Home",
+    "title": "SA COSMOS",
+    "subtitle": "Translation Services",
+    "translate": "SA Translate",
+    "about": "About us",
+    "contact": "Contact us",
+    "language": "English",
+    "quote": "Request A Quote"
   },
-  "home": {
-    "title": "Welcome to My Website"
+  "contactForm": {
+    "heading": "Let Us Help You",
+    "subHeading": "Get a free consultation from our team",
+    "description": "You can write to us at any time and we will respond to your messages as soon as possible",
+    "logoAlt": "SA COSMOS Logo",
+    "formFields": {
+      "name": "Name*",
+      "namePlaceholder": "Your Name",
+      "email": "Email*",
+      "emailPlaceholder": "example@email.com",
+      "contactNumber": "Contact Number*",
+      "contactNumberPlaceholder": "Your Contact Number",
+      "message": "Your Message*",
+      "messagePlaceholder": "Your Message Here",
+      "submitButton": "Send Message"
+    }
   },
   "contact": {
     "title": "Contact Us",
@@ -29,5 +49,23 @@
     "legalNotice": "Legal Notice",
     "termsAndConditions": "Terms and Conditions",
     "privacyPolicy": "Privacy Policy"
+  },
+  "services": {
+    "documentTranslations": {
+      "title": "Document Translations",
+      "description": "Translate all types of documents."
+    },
+    "oralTranslation": {
+      "title": "Oral Translation",
+      "description": "Professional oral translation services."
+    },
+    "translateVideoChat": {
+      "title": "Translate Video Chat",
+      "description": "Real-time video chat translation."
+    },
+    "bookTranslations": {
+      "title": "Book Translations",
+      "description": "Translate books and manuscripts."
+    }
   }
 }
