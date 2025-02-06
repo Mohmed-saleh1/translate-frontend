@@ -78,5 +78,29 @@
     "assistRoll": "Assist Roll",
     "assistRollTitle": "Assist Roll",
     "assistRollDesc": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from 'de Finibus Bonorum et Malorum'"
+  },
+  "team": {
+    "title": "SA Translate Team",
+    "viewAllButton": "View All Team",
+    "nadaMarijaBach": {
+      "name": "Nada-Marija Bach",
+      "title": "Sworn interpreter and authorized translator",
+      "languages": ["Croatian", "Macedonian", "Slovenian", "Serbian", "German"]
+    },
+    "samirMusa": {
+      "name": "Samir Musa",
+      "title": "Interpreters and language mediators",
+      "languages": ["Arabic", "Kurdish", "German"]
+    },
+    "hamidHesso": {
+      "name": "Hamid Hesso",
+      "title": "Sworn interpreter and authorized translator",
+      "languages": ["Arabic", "Kurdish", "German"]
+    },
+    "kyungMiKim": {
+      "name": "Kyung-Mi Kim",
+      "title": "Authorized Translator",
+      "languages": ["Korean", "German"]
+    }
   }
 }

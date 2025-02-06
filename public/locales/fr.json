@@ -78,5 +78,29 @@
     "assistRoll": "Assistance de Rôle",
     "assistRollTitle": "Assistance de Rôle",
     "assistRollDesc": "Le morceau standard de Lorem Ipsum utilisé depuis les années 1500 est reproduit ci-dessous pour ceux qui sont intéressés. Les sections 1.10.32 et 1.10.33 de 'De Finibus Bonorum et Malorum'"
+  },
+  "team": {
+    "title": "Équipe de SA Translate",
+    "viewAllButton": "Voir toute l'équipe",
+    "nadaMarijaBach": {
+      "name": "Nada-Marija Bach",
+      "title": "Interprète et traducteur autorisé",
+      "languages": ["Croate", "Macédonien", "Slovène", "Serbe", "Allemand"]
+    },
+    "samirMusa": {
+      "name": "Samir Musa",
+      "title": "Interprètes et médiateurs linguistiques",
+      "languages": ["Arabe", "Kurde", "Allemand"]
+    },
+    "hamidHesso": {
+      "name": "Hamid Hesso",
+      "title": "Interprète et traducteur autorisé",
+      "languages": ["Arabe", "Kurde", "Allemand"]
+    },
+    "kyungMiKim": {
+      "name": "Kyung-Mi Kim",
+      "title": "Traducteur Autorisé",
+      "languages": ["Coréen", "Allemand"]
+    }
   }
 }

@@ -78,5 +78,29 @@
     "assistRoll": "Asistencia de Rol",
     "assistRollTitle": "Asistencia de Rol",
     "assistRollDesc": "El trozo estándar de Lorem Ipsum utilizado desde los 1500 se reproduce a continuación para aquellos interesados. Las secciones 1.10.32 y 1.10.33 de 'De Finibus Bonorum et Malorum'"
+  },
+  "team": {
+    "title": "Equipo de SA Translate",
+    "viewAllButton": "Ver todo el equipo",
+    "nadaMarijaBach": {
+      "name": "Nada-Marija Bach",
+      "title": "Intérprete y traductor autorizado",
+      "languages": ["Croata", "Macedonio", "Esloveno", "Serbio", "Alemán"]
+    },
+    "samirMusa": {
+      "name": "Samir Musa",
+      "title": "Intérpretes y mediadores de lenguaje",
+      "languages": ["Árabe", "Kurdo", "Alemán"]
+    },
+    "hamidHesso": {
+      "name": "Hamid Hesso",
+      "title": "Intérprete y traductor autorizado",
+      "languages": ["Árabe", "Kurdo", "Alemán"]
+    },
+    "kyungMiKim": {
+      "name": "Kyung-Mi Kim",
+      "title": "Traductor Autorizado",
+      "languages": ["Coreano", "Alemán"]
+    }
   }
 }

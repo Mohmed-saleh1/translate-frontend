@@ -1,0 +1,49 @@
+.cardContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cardImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.cardContent {
+  max-width: 300px;
+}
+
+.cardName {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.cardTitle {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.cardLanguages {
+  font-size: 16px;
+  color: #333;
+}
+
+.viewAllButton {
+  background-color: #5858fa;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.viewAllButton:hover {
+  background-color: #4646d3;
+}

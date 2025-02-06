@@ -78,5 +78,35 @@
     "assistRoll": "Assistenzrolle",
     "assistRollTitle": "Assistenzrolle",
     "assistRollDesc": "Der standardisierte Lorem-Ipsum-Text, der seit den 1500er Jahren verwendet wird, wird für Interessierte nachfolgend wiedergegeben. Abschnitte 1.10.32 und 1.10.33 aus 'De Finibus Bonorum et Malorum'"
+  },
+  "team": {
+    "title": "SA Translate Team",
+    "viewAllButton": "Zeige das gesamte Team",
+    "nadaMarijaBach": {
+      "name": "Nada-Marija Bach",
+      "title": "Gelöbter Dolmetscher und autorisierter Übersetzer",
+      "languages": [
+        "Kroatisch",
+        "Mazedonisch",
+        "Slowenisch",
+        "Serbisch",
+        "Deutsch"
+      ]
+    },
+    "samirMusa": {
+      "name": "Samir Musa",
+      "title": "Dolmetscher und Sprachmittler",
+      "languages": ["Arabisch", "Kurdisch", "Deutsch"]
+    },
+    "hamidHesso": {
+      "name": "Hamid Hesso",
+      "title": "Gelöbter Dolmetscher und autorisierter Übersetzer",
+      "languages": ["Arabisch", "Kurdisch", "Deutsch"]
+    },
+    "kyungMiKim": {
+      "name": "Kyung-Mi Kim",
+      "title": "Autorisierter Übersetzer",
+      "languages": ["Koreanisch", "Deutsch"]
+    }
   }
 }
