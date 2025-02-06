@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: center; /* Center the items horizontally */
+  gap: 20px; /* Space between items */
+  padding: 20px;
+  background-color: #f8f9fa;
+  flex-direction: ;
+}
+
+.service {
+  text-align: center;
+  border: 1px solid #dee2e6;
+  border-radius: 15px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.serviceImage {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.serviceImage:hover {
+  transform: scale(1.1);
+}
+
+.serviceTitle {
+  font-size: 1.25rem;
+  margin: 10px 0 5px;
+}
+
+.serviceDescription {
+  font-size: 0.875rem;
+  color: #6c757d;
+}

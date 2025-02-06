@@ -1,4 +1,18 @@
 {
+  "metadata": {
+    "title": "Contact Us",
+    "description": "Get in touch with us."
+  },
+  "home": {
+    "title": "Welcome to My Website"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Submit"
+  },
   "footer": {
     "companyName": "SA COSMOS",
     "tagline": "Job services",

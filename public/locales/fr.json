@@ -1,4 +1,11 @@
 {
+  "contact": {
+    "title": "Nous Contacter",
+    "name": "Nom",
+    "email": "E-mail",
+    "message": "Message",
+    "submit": "Envoyer"
+  },
   "footer": {
     "companyName": "SA COSMOS",
     "tagline": "Services d'emploi",
