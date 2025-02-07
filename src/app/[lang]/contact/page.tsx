@@ -1,16 +1,15 @@
 import { getTranslations } from "../../../lib/i18n";
 import ContactPageStyles from "./ContactPage.module.css";
 import Image from "next/image";
-import { Locale } from "../../../config/i18n";
+// import { Locale } from "../../../config/i18n";
 
-interface ContactPageProps {
-  params: { lang: Locale };
-}
-
-export default async function ContactPage({ params }: ContactPageProps) {
+// interface ContactPageProps {
+//   params: { lang: Locale };
+// }
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export default async function ContactPage({ params }: any) {
   const { lang } = await params;
   const t = await getTranslations(lang);
-
   return (
     <div>
       <div>
@@ -85,3 +84,6 @@ export default async function ContactPage({ params }: ContactPageProps) {
     </div>
   );
 }
+export const generateStaticParams = async () => {
+  return [{ lang: "en" }, { lang: "fr" }, { lang: "es" }, { lang: "de" }];
+};

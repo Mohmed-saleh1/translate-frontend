@@ -5,7 +5,6 @@ import NavigationBar from "../../components/navbar/Navbar";
 import HomePage from "./home/HomePage";
 
 export default async function RootLayout({
-  children,
   params,
 }: {
   children: ReactNode;
@@ -18,23 +17,20 @@ export default async function RootLayout({
   }
 
   return (
-    <html lang={lang}>
-      <body>
-        <header>
-          <nav>
-            <NavigationBar lang={lang} />{" "}
-          </nav>
-        </header>
+    <>
+      <header>
+        <nav>
+          <NavigationBar lang={lang} />
+        </nav>
+      </header>
 
-        <main>
-          {" "}
-          <HomePage lang={lang} />
-        </main>
+      <main>
+        <HomePage lang={lang} />
+      </main>
 
-        <footer>
-          <Footer lang={lang} />
-        </footer>
-      </body>
-    </html>
+      <footer>
+        <Footer lang={lang} />
+      </footer>
+    </>
   );
 }
