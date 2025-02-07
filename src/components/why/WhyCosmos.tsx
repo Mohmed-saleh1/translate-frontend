@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./WhyCosmos.module.css";
-import { getTranslations } from "@/lib/i18n";
-import { Locale } from "@/config/i18n";
+import { getTranslations } from "../../lib/i18n";
+import { Locale } from "../../config/i18n";
 import Image from "next/image";
 
 interface WhyCosmosProps {

@@ -1,7 +1,7 @@
-import { i18n } from "@/config/i18n";
+import { i18n } from "./src/config/i18n";
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
- 
+
 const PUBLIC_FILE = /\.(.*)$/;
 
 export function middleware(request: NextRequest) {

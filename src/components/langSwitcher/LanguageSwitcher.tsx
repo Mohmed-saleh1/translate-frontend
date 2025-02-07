@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { i18n } from "@/config/i18n";
+import { i18n } from "../../config/i18n";
 
 export default function LanguageSwitcher({
   currentLang,

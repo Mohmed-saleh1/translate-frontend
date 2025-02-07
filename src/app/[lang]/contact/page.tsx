@@ -1,7 +1,7 @@
-import { getTranslations } from "@/lib/i18n";
+import { getTranslations } from "../../../lib/i18n";
 import ContactPageStyles from "./ContactPage.module.css";
 import Image from "next/image";
-import { Locale } from "@/config/i18n";
+import { Locale } from "../../../config/i18n";
 
 interface ContactPageProps {
   params: { lang: Locale };

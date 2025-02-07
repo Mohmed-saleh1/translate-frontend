@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import { Locale, i18n } from "../../config/i18n";
-import Footer from "@/components/footer/Footer";
-import NavigationBar from "@/components/navbar/Navbar";
+import Footer from "../../components/footer/Footer";
+import NavigationBar from "../../components/navbar/Navbar";
 import HomePage from "./home/HomePage";
 
 export default async function RootLayout({
