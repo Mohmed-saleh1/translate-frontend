@@ -1,32 +1,25 @@
-import { ReactNode } from "react";
-import { Locale, i18n } from "../../config/i18n";
+// src/app/[lang]/layout.tsx
+import React from "react";
 import Footer from "../../components/footer/Footer";
-import NavigationBar from "../../components/navbar/Navbar";
-import HomePage from "./home/HomePage";
+import { Locale } from "../../config/i18n";
+import NavigationBar from "@/components/navbar/Navbar";
 
 export default async function RootLayout({
+  children,
   params,
 }: {
-  children: ReactNode;
+  children: React.ReactNode;
   params: { lang: Locale };
 }) {
-  const { lang } = await params;
-
-  if (!i18n.locales.includes(lang)) {
-    throw new Error(`Invalid language: ${lang}`);
-  }
+  const { lang } = params;
 
   return (
     <>
       <header>
-        <nav>
-          <NavigationBar lang={lang} />
-        </nav>
+        <NavigationBar lang={lang} />
       </header>
 
-      <main>
-        <HomePage lang={lang} />
-      </main>
+      <main>{children}</main>
 
       <footer>
         <Footer lang={lang} />

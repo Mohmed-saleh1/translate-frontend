@@ -84,6 +84,3 @@ export default async function ContactPage({ params }: any) {
     </div>
   );
 }
-export const generateStaticParams = async () => {
-  return [{ lang: "en" }, { lang: "fr" }, { lang: "es" }, { lang: "de" }];
-};

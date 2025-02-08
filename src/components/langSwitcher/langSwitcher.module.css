@@ -69,6 +69,7 @@
   .langButton {
     font-size: 0.9rem;
     padding: 8px 12px;
+    margin: 4px;
   }
 
   .dropdownMenu {
@@ -85,12 +86,12 @@
 
 @media (max-width: 480px) {
   .langButton {
-    font-size: 0.85rem;
+    font-size: 0.55rem;
     padding: 6px 10px;
   }
 
   .dropdownMenu {
-    width: 110px;
+    width: 80px;
   }
 
   .langOption,
