@@ -1,0 +1,101 @@
+.languageSwitcher {
+  position: relative;
+  display: inline-block;
+}
+
+.langButton {
+  padding: 10px 14px;
+  border: none;
+  background-color: #0070f3;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.langButton:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 140px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  padding: 8px 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+}
+
+.langOption {
+  padding: 12px;
+  font-size: 1rem;
+  text-align: center;
+  color: #333;
+  background: transparent;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.langOption:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.activeLang {
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #0070f3;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .langButton {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+
+  .dropdownMenu {
+    width: 120px;
+    top: 100%;
+  }
+
+  .langOption,
+  .activeLang {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .langButton {
+    font-size: 0.85rem;
+    padding: 6px 10px;
+  }
+
+  .dropdownMenu {
+    width: 110px;
+  }
+
+  .langOption,
+  .activeLang {
+    font-size: 0.85rem;
+    padding: 8px;
+  }
+}

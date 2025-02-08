@@ -4,49 +4,40 @@
   justify-content: space-between;
   padding: 10px 20px;
   background-color: #fff;
+  position: relative;
 }
 
-.logoContainer {
-  display: flex;
-  align-items: center;
-}
-
-.title {
-  /* margin: 0 10px; */
-  color: #8b0000;
-}
+/* Logo */
 .logoContainer {
   display: flex;
   align-items: center;
   gap: 10px;
-  flex-wrap: wrap;
 }
 
-.subtitle {
-  width: 100%;
+.title {
+  color: #8b0000;
 }
 
-.subtitle {
-  margin: 0;
-  color: #000;
-}
-
+/* Navigation Links */
 .navLinks {
   display: flex;
   gap: 20px;
 }
 
-.navLink {
-  color: #000;
-  text-decoration: none;
-  font-size: 16px;
-  transition: color 0.3s ease;
+/* Mobile Menu Toggle */
+.menuToggle {
+  display: none;
 }
 
-.navLink:hover {
-  color: #8b0000;
+.menuButton {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
 }
 
+/* Quote Button */
 .quoteButton {
   background-color: #1a237e;
   color: #fff;
@@ -59,4 +50,45 @@
 
 .quoteButton:hover {
   background-color: #311b92;
+}
+
+/* Media Queries for Responsive Design */
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+  .navLinks {
+    gap: 15px;
+  }
+  .quoteButton {
+    padding: 8px 16px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .menuButton {
+    display: block;
+  }
+
+  .navLinks {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: white;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    gap: 10px;
+    display: none;
+  }
+
+  /* Show menu when checkbox is checked */
+  .menuToggle:checked + .menuButton + .navLinks {
+    display: flex;
+  }
+
+  .navLink {
+    padding: 10px;
+    display: block;
+  }
 }

@@ -1,43 +1,52 @@
 import styles from "./NavigationBar.module.css";
-import { getTranslations } from "../../lib/i18n";
 import { Locale } from "../../config/i18n";
 import Image from "next/image";
 import Link from "next/link";
+import { getTranslations } from "@/lib/i18n";
+import LanguageSwitcher from "../langSwitcher/LanguageSwitcher";
 
 interface NavigationBarProps {
   lang: Locale;
 }
 
-const NavigationBar: React.FC<NavigationBarProps> = async ({ lang }) => {
-  const t = await getTranslations(lang);
+const NavigationBar = async ({ lang }: NavigationBarProps) => {
+  const translations = await getTranslations(lang);
 
   return (
     <nav className={styles.navbar}>
       <div className={styles.logoContainer}>
         <Image
           src="/assets/logo.png"
-          alt={t.nav.title}
-          layout="fixed"
+          alt={translations.nav.title}
           width={70}
           height={50}
         />
-        <h1 className={styles.title}>{t.nav.title}</h1>
+        <h1 className={styles.title}>{translations.nav.title}</h1>
       </div>
 
+      {/* Mobile Menu Toggle */}
+      <input type="checkbox" id="menu-toggle" className={styles.menuToggle} />
+      <label htmlFor="menu-toggle" className={styles.menuButton}>
+        ☰
+      </label>
+
+      {/* Navigation Links */}
       <div className={styles.navLinks}>
         <Link className={styles.navLink} href={`/${lang}/about`}>
-          {t.nav.about}
+          {translations.nav.about}
         </Link>
         <Link className={styles.navLink} href={`/${lang}/contact`}>
-          {t.nav.contact}
+          {translations.nav.contact}
         </Link>
         <Link className={styles.navLink} href={`/${lang}/home`}>
-          {t.nav.home}
+          {translations.nav.home}
         </Link>
       </div>
 
+      <LanguageSwitcher lang={lang} />
+
       <Link className={styles.quoteButton} href={`/${lang}/quote`}>
-        {t.nav.quote}
+        {translations.nav.quote}
       </Link>
     </nav>
   );
