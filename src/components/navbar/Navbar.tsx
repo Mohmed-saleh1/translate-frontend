@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { getTranslations } from "../../lib/i18n";
 import LanguageSwitcher from "../langSwitcher/LanguageSwitcher";
+import MobileMenu from "./MobileMenu"; // Import client component
 
 interface NavigationBarProps {
   lang: Locale;
@@ -14,6 +15,7 @@ const NavigationBar = async ({ lang }: NavigationBarProps) => {
 
   return (
     <nav className={styles.navbar}>
+      {/* Logo */}
       <Link href={`/${lang}/home`}>
         <div className={styles.logoContainer}>
           <Image
@@ -26,7 +28,7 @@ const NavigationBar = async ({ lang }: NavigationBarProps) => {
         </div>
       </Link>
 
-      {/* Navigation Links */}
+      {/* Desktop Navigation Links */}
       <div className={styles.navLinks}>
         <Link className={styles.navLink} href={`/${lang}/about`}>
           {translations.nav.about}
@@ -39,18 +41,16 @@ const NavigationBar = async ({ lang }: NavigationBarProps) => {
         </Link>
       </div>
 
-      <div className={styles.langContainer}>
+      {/* Right Side: Language + Quote Button + Mobile Menu */}
+      <div className={styles.rightContainer}>
         <LanguageSwitcher lang={lang} />
         <Link className={styles.quoteButton} href={`/${lang}/quote`}>
           {translations.nav.quote}
         </Link>
-      </div>
 
-      {/* Mobile Menu Toggle */}
-      <input type="checkbox" id="menu-toggle" className={styles.menuToggle} />
-      <label htmlFor="menu-toggle" className={styles.menuButton}>
-        ☰
-      </label>
+        {/* Mobile Menu (Client Component) */}
+        <MobileMenu lang={lang} translations={translations} />
+      </div>
     </nav>
   );
 };
