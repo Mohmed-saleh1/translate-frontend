@@ -14,15 +14,17 @@ const NavigationBar = async ({ lang }: NavigationBarProps) => {
 
   return (
     <nav className={styles.navbar}>
-      <div className={styles.logoContainer}>
-        <Image
-          src="/assets/logo.png"
-          alt={translations.nav.title}
-          width={70}
-          height={50}
-        />
-        <h1 className={styles.title}>{translations.nav.title}</h1>
-      </div>
+      <Link href={`/${lang}/home`}>
+        <div className={styles.logoContainer}>
+          <Image
+            src="/assets/logo.png"
+            alt={translations.nav.title}
+            width={70}
+            height={50}
+          />
+          <h1 className={styles.title}>{translations.nav.title}</h1>
+        </div>
+      </Link>
 
       {/* Navigation Links */}
       <div className={styles.navLinks}>

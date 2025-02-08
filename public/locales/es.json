@@ -102,5 +102,24 @@
       "title": "Traductor Autorizado",
       "languages": ["Coreano", "Alemán"]
     }
+  },
+  "quote": {
+    "title": "Solicitar un presupuesto",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo electrónico",
+    "phoneNumber": "Número de teléfono",
+    "website": "Sitio web",
+    "address": "Dirección",
+    "city": "Ciudad",
+    "state": "Estado",
+    "country": "País",
+    "targetLanguage": "Idioma de destino",
+    "selectLanguage": "Seleccionar idioma",
+    "translationType": "Tipo de traducción",
+    "selectType": "Seleccionar tipo",
+    "message": "Mensaje",
+    "fileUpload": "Subir archivos",
+    "submit": "Enviar"
   }
 }

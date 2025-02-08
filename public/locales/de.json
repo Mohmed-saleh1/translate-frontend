@@ -108,5 +108,24 @@
       "title": "Autorisierter Übersetzer",
       "languages": ["Koreanisch", "Deutsch"]
     }
+  },
+  "quote": {
+    "title": "Angebot anfordern",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "phoneNumber": "Telefonnummer",
+    "website": "Webseite",
+    "address": "Adresse",
+    "city": "Stadt",
+    "state": "Bundesland",
+    "country": "Land",
+    "targetLanguage": "Zielsprache",
+    "selectLanguage": "Sprache auswählen",
+    "translationType": "Übersetzungsart",
+    "selectType": "Typ auswählen",
+    "message": "Nachricht",
+    "fileUpload": "Dateien hochladen",
+    "submit": "Absenden"
   }
 }
