@@ -1,16 +1,10 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 // src/app/[lang]/layout.tsx
 import React from "react";
 import Footer from "../../components/footer/Footer";
-import { Locale } from "../../config/i18n";
-import NavigationBar from "@/components/navbar/Navbar";
+import NavigationBar from "../../components/navbar/Navbar";
 
-export default async function RootLayout({
-  children,
-  params,
-}: {
-  children: React.ReactNode;
-  params: { lang: Locale };
-}) {
+export default async function RootLayout({ children, params }: any) {
   const { lang } = params;
 
   return (

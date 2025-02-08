@@ -1,14 +1,10 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { getTranslations } from "../../../lib/i18n";
 import ContactPageStyles from "./ContactPage.module.css";
 import Image from "next/image";
 import ContactForm from "./ContactForm";
-import { Locale } from "@/config/i18n";
 
-export default async function ContactPage({
-  params,
-}: {
-  params: { lang: Locale };
-}) {
+export default async function ContactPage({ params }: any) {
   const t = await getTranslations(params.lang);
 
   return (

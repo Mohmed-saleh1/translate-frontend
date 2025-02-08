@@ -1,8 +1,9 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 
-export default function ContactPage({ params }: { params: { lang: string } }) {
+export default function ContactPage({ params }: any) {
   const router = useRouter();
 
   useEffect(() => {
