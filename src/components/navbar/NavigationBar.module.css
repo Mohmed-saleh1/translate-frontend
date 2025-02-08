@@ -42,7 +42,8 @@
   background-color: #1a237e;
   color: #fff;
   padding: 10px 20px;
-  border-radius: 25px;
+  border: rgb(71, 5, 5) solid 2px;
+  border-radius: 8px;
   text-decoration: none;
   font-size: 16px;
   transition: background-color 0.3s ease;
@@ -50,6 +51,11 @@
 
 .quoteButton:hover {
   background-color: #311b92;
+}
+
+.langContainer {
+  display: flex;
+  gap: 10px;
 }
 
 /* Media Queries for Responsive Design */
@@ -60,7 +66,7 @@
     gap: 15px;
   }
   .quoteButton {
-    padding: 8px 16px;
+    padding: auto;
     font-size: 0.7rem;
     max-height: auto;
   }
@@ -72,9 +78,10 @@
     display: block;
   }
   .quoteButton {
-    padding: 8px 16px;
-    font-size: 0.7rem;
+    padding: auto;
+    font-size: 0.5rem;
     max-height: auto;
+    border-radius: 50%;
   }
 
   .navLinks {
@@ -92,6 +99,7 @@
   /* Show menu when checkbox is checked */
   .menuToggle:checked + .menuButton + .navLinks {
     display: flex;
+    margin-right: 3px;
   }
 
   .navLink {

@@ -5,8 +5,8 @@
 
 .langButton {
   padding: 10px 14px;
-  border: none;
-  background-color: #0070f3;
+  border: rgb(71, 5, 5) solid 2px;
+  background-color: #1a237e;
   color: white;
   font-size: 1rem;
   font-weight: 600;
@@ -68,7 +68,7 @@
 @media (max-width: 768px) {
   .langButton {
     font-size: 0.9rem;
-    padding: 8px 12px;
+    padding: auto;
     margin: 4px;
   }
 
