@@ -8,7 +8,7 @@ interface ContactFormProps {
   lang: Locale;
 }
 
-const ContactForm: React.FC<ContactFormProps> = async ({ lang }) => {
+const ContactForm = async ({ lang }: ContactFormProps) => {
   const t = await getTranslations(lang);
 
   return (

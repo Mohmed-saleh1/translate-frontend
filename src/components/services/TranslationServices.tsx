@@ -37,20 +37,23 @@ const TranslationServices: React.FC<TranslationServicesProps> = async ({
   ];
 
   return (
-    <div className={styles.container}>
-      {services.map((service, index) => (
-        <div key={index} className={styles.service}>
-          <Image
-            src={service.imageSrc}
-            alt={service.title}
-            className={styles.serviceImage}
-            width={150}
-            height={150}
-          />
-          <h2 className={styles.serviceTitle}>{service.title}</h2>
-          <p className={styles.serviceDescription}>{service.description}</p>
-        </div>
-      ))}
+    <div className={styles.rootcontainer}>
+      <h1 className={styles.title}>{t.services.title}</h1>
+      <div className={styles.container}>
+        {services.map((service, index) => (
+          <div key={index} className={styles.service}>
+            <Image
+              src={service.imageSrc}
+              alt={service.title}
+              className={styles.serviceImage}
+              width={150}
+              height={150}
+            />
+            <h2 className={styles.serviceTitle}>{service.title}</h2>
+            <p className={styles.serviceDescription}>{service.description}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

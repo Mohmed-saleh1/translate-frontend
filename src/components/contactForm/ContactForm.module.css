@@ -4,6 +4,7 @@
   justify-content: center;
   height: 100vh;
   background-color: #f8f8f8;
+  padding: 20px;
 }
 
 .formWrapper {
@@ -13,8 +14,10 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 800px;
   width: 100%;
+  flex-wrap: wrap;
 }
 
+/* Left Section */
 .formLeft {
   background-color: #5858fa;
   color: #fff;
@@ -25,8 +28,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-width: 300px;
 }
 
+/* Right Section */
 .formRight {
   padding: 40px;
   flex: 1;
@@ -76,4 +81,47 @@
 
 .formButton:hover {
   background-color: #4646d3;
+}
+
+/* 📌 Responsive Styles */
+
+/* Tablet View (below 768px) */
+@media (max-width: 768px) {
+  .formWrapper {
+    flex-direction: column;
+    border-radius: 20px;
+   
+  }
+
+  .formLeft {
+    border-radius: 20px 20px 0 0;
+    padding: auto;
+  }
+
+  .formRight {
+    padding: 30px;
+  }
+}
+
+/* Mobile View (below 480px) */
+@media (max-width: 480px) {
+  .formLeft {
+    display: none; /* Hides the left section */
+  }
+
+  .formRight {
+    padding: 20px;
+  }
+
+  .formHeading {
+    font-size: 20px;
+  }
+
+  .formSubHeading {
+    font-size: 16px;
+  }
+
+  .formButton {
+    font-size: 14px;
+  }
 }

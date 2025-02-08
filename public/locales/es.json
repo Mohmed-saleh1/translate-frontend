@@ -1,6 +1,15 @@
 {
+  "languages": {
+    "en": "Inglés",
+    "ar": "Árabe",
+    "fr": "Francés",
+    "es": "Español",
+    "de": "Alemán",
+    "it": "Italiano"
+  },
   "nav": {
     "home": "Inicio",
+    "team": "Equipo",
     "title": "SA COSMOS",
     "subtitle": "Servicios de Traducción",
     "translate": "SA Traducir",
@@ -28,7 +37,8 @@
   },
   "contact": {
     "title": "Contáctanos",
-    "name": "Nombre",
+    "fname": "Nombre",
+    "lname": "Apellido",
     "email": "Correo electrónico",
     "message": "Mensaje",
     "submit": "Enviar"
@@ -51,6 +61,7 @@
     "privacyPolicy": "Política de privacidad"
   },
   "services": {
+    "title": "Nuestros Servicios de Traducción",
     "documentTranslations": {
       "title": "Traducciones de Documentos",
       "description": "Traduce todo tipo de documentos."
@@ -69,6 +80,7 @@
     }
   },
   "whyCosmos": {
+    "title": "Por Qué Cosmos",
     "certifiedTranslation": "Traducción Certificada",
     "certifiedTranslationTitle": "Traducción Certificada",
     "certifiedTranslationDesc": "Las traducciones certificadas son para usos oficiales donde tu receptor requiere certificación para verificar que la traducción es completa y precisa",
@@ -101,6 +113,26 @@
       "name": "Kyung-Mi Kim",
       "title": "Traductor Autorizado",
       "languages": ["Coreano", "Alemán"]
+    },
+    "alex": {
+      "name": "Aleksandre Abesadze",
+      "title": "Intérprete jurado y traductor autorizado",
+      "languages": ["Georgiano", "Alemán"]
+    },
+    "serhiy": {
+      "name": "Serhiy Mokhov",
+      "title": "Intérprete jurado y traductor autorizado",
+      "languages": ["Ruso", "Ucraniano", "Alemán"]
+    },
+    "mehdy": {
+      "name": "Mehdy Sattari",
+      "title": "Intérpretes y traductores",
+      "languages": ["Persa / Dari", "Alemán"]
+    },
+    "gulbahar": {
+      "name": "Gülbahar Candan",
+      "title": "Intérprete jurado y traductor autorizado",
+      "languages": ["Kurmanci (Zazaki)", "Turco", "Alemán"]
     }
   },
   "quote": {

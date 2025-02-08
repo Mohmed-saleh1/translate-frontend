@@ -1,17 +1,18 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-// src/app/[lang]/layout.tsx
 import React from "react";
 import Footer from "../../components/footer/Footer";
 import NavigationBar from "../../components/navbar/Navbar";
+import Head from "next/head";
 
 export default async function RootLayout({ children, params }: any) {
   const { lang } = params;
 
   return (
     <>
-      <header>
-        <NavigationBar lang={lang} />
-      </header>
+      <Head>
+        <link rel="icon" href="favicon.ico" />
+        <title>Team Page</title>
+      </Head>
+      <NavigationBar lang={lang} />
 
       <main>{children}</main>
 

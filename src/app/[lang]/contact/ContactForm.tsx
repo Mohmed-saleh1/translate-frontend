@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { useState } from "react";
@@ -50,32 +49,30 @@ export default function ContactForm({ t }: { t: any }) {
 
   return (
     <form className={ContactPageStyles.form} onSubmit={handleSubmit}>
-      <div
-        className={
-          (ContactPageStyles.nameContainer, ContactPageStyles.smallField)
-        }
-      >
-        <div className={ContactPageStyles.field}>
-          <label htmlFor="firstName" className={ContactPageStyles.label}>
-            {t.contact.firstName}
-          </label>
-          <input
-            id="firstName"
-            type="text"
-            required
-            className={ContactPageStyles.input}
-          />
-        </div>
-        <div className={ContactPageStyles.field}>
-          <label htmlFor="lastName" className={ContactPageStyles.label}>
-            {t.contact.lastName}
-          </label>
-          <input
-            id="lastName"
-            type="text"
-            required
-            className={ContactPageStyles.input}
-          />
+      <div className={ContactPageStyles.smallField}>
+        <div className={ContactPageStyles.nameContainer}>
+          <div className={ContactPageStyles.field}>
+            <label htmlFor="firstName" className={ContactPageStyles.label}>
+              {t.contact.fname}
+            </label>
+            <input
+              id="firstName"
+              type="text"
+              required
+              className={ContactPageStyles.input}
+            />
+          </div>
+          <div className={ContactPageStyles.field}>
+            <label htmlFor="lastName" className={ContactPageStyles.label}>
+              {t.contact.lname}
+            </label>
+            <input
+              id="lastName"
+              type="text"
+              required
+              className={ContactPageStyles.input}
+            />
+          </div>
         </div>
       </div>
 

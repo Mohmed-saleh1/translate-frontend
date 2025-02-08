@@ -1,6 +1,15 @@
 {
+  "languages": {
+    "en": "English",
+    "ar": "Arabic",
+    "fr": "French",
+    "es": "Spanish",
+    "de": "German",
+    "it": "Italian"
+  },
   "nav": {
     "home": "Home",
+    "team": "Team",
     "title": "SA COSMOS",
     "subtitle": "Translation Services",
     "translate": "SA Translate",
@@ -28,14 +37,14 @@
   },
   "contact": {
     "title": "Contact Us",
-    "name": "Name",
+    "fname": "First Name",
+    "lname": "Last Name",
     "email": "Email",
     "message": "Message",
     "submit": "Submit"
   },
   "footer": {
     "companyName": "SA COSMOS",
-    "tagline": "Job services",
     "aboutTitle": "About SA Cosmos Trading GmbH",
     "aboutDescription": "SA Cosmos is more than a job board, it's a dynamic ecosystem where talent meets opportunity. Elevate your career with us as you navigate through a plethora of offerings!",
     "forCandidates": "For Candidates",
@@ -51,6 +60,8 @@
     "privacyPolicy": "Privacy Policy"
   },
   "services": {
+    "title": "Our Translation Services",
+
     "documentTranslations": {
       "title": "Document Translations",
       "description": "Translate all types of documents."
@@ -69,6 +80,7 @@
     }
   },
   "whyCosmos": {
+    "title": "Why Cosmos",
     "certifiedTranslation": "Certified Translation",
     "certifiedTranslationTitle": "Certified Translation",
     "certifiedTranslationDesc": "Certified translations are for official uses where your receiver requires certification to verify that the translation is complete and accurate",
@@ -101,6 +113,26 @@
       "name": "Kyung-Mi Kim",
       "title": "Authorized Translator",
       "languages": ["Korean", "German"]
+    },
+    "alex": {
+      "name": "Aleksandre Abesadze",
+      "title": "Sworn interpreter and authorized translator",
+      "languages": ["Georgian", "German"]
+    },
+    "serhiy": {
+      "name": "Serhiy Mokhov",
+      "title": "Sworn interpreter and authorized translator",
+      "languages": ["Russian", "Ukrainian", "German"]
+    },
+    "mehdy": {
+      "name": "Mehdy Sattari",
+      "title": "Interpreters and translators",
+      "languages": ["Farsi / Dari", "German"]
+    },
+    "gulbahar": {
+      "name": "Gülbahar Candan",
+      "title": "Sworn interpreter and authorized translator",
+      "languages": ["Kurmanci (Zazaki)", "Turkish", "German"]
     }
   },
   "quote": {

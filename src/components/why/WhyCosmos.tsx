@@ -29,20 +29,23 @@ const WhyCosmos: React.FC<WhyCosmosProps> = async ({ lang }) => {
   ];
 
   return (
-    <div className={styles.container}>
-      {reasons.map((reason, index) => (
-        <div key={index} className={styles.reason}>
-          <Image
-            src={reason.imageSrc}
-            alt={reason.title}
-            className={styles.reasonImage}
-            width={150}
-            height={150}
-          />
-          <h2 className={styles.reasonTitle}>{reason.title}</h2>
-          <p className={styles.reasonDescription}>{reason.description}</p>
-        </div>
-      ))}
+    <div className={styles.rootcontainer}>
+      <h1 className={styles.title}>{t.whyCosmos.title}</h1>
+      <div className={styles.container}>
+        {reasons.map((reason, index) => (
+          <div key={index} className={styles.reason}>
+            <Image
+              src={reason.imageSrc}
+              alt={reason.title}
+              className={styles.reasonImage}
+              width={150}
+              height={150}
+            />
+            <h2 className={styles.reasonTitle}>{reason.title}</h2>
+            <p className={styles.reasonDescription}>{reason.description}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

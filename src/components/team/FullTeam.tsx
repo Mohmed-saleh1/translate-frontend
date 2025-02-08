@@ -9,15 +9,21 @@ interface TranslateTeamProps {
   lang: Locale;
 }
 
-const TranslateTeam = async ({ lang }: TranslateTeamProps) => {
+const FullTranslateTeam = async ({ lang }: TranslateTeamProps) => {
   const t = await getTranslations(lang);
 
   const teamMembers = [
     {
-      name: t.team.mehdy.name,
-      title: t.team.mehdy.title,
-      languages: t.team.mehdy.languages,
-      imageUrl: "/assets/team/mehdy.jpg",
+      name: t.team.nadaMarijaBach.name,
+      title: t.team.nadaMarijaBach.title,
+      languages: t.team.nadaMarijaBach.languages,
+      imageUrl: "/assets/team/nada.png",
+    },
+    {
+      name: t.team.samirMusa.name,
+      title: t.team.samirMusa.title,
+      languages: t.team.samirMusa.languages,
+      imageUrl: "/assets/team/nada.png",
     },
     {
       name: t.team.hamidHesso.name,
@@ -26,16 +32,22 @@ const TranslateTeam = async ({ lang }: TranslateTeamProps) => {
       imageUrl: "/assets/team/hamid.png",
     },
     {
-      name: t.team.alex.name,
-      title: t.team.alex.title,
-      languages: t.team.alex.languages,
-      imageUrl: "/assets/team/alex.jpg",
+      name: t.team.kyungMiKim.name,
+      title: t.team.kyungMiKim.title,
+      languages: t.team.kyungMiKim.languages,
+      imageUrl: "/assets/team/kyung.png",
     },
     {
-      name: t.team.serhiy.name,
-      title: t.team.serhiy.title,
-      languages: t.team.serhiy.languages,
-      imageUrl: "/assets/team/serhiy.jpg",
+      name: t.team.hamidHesso.name,
+      title: t.team.hamidHesso.title,
+      languages: t.team.hamidHesso.languages,
+      imageUrl: "/assets/team/hamid.png",
+    },
+    {
+      name: t.team.hamidHesso.name,
+      title: t.team.hamidHesso.title,
+      languages: t.team.hamidHesso.languages,
+      imageUrl: "/assets/team/hamid.png",
     },
   ];
 
@@ -43,7 +55,7 @@ const TranslateTeam = async ({ lang }: TranslateTeamProps) => {
     <div className={styles.container}>
       <h1 className={styles.title}>{t.team.title}</h1>
       <div className={styles.cards}>
-        {teamMembers.slice(0, 4).map((member, index) => (
+        {teamMembers.map((member, index) => (
           <div key={index} className={styles.card}>
             <Image
               src={member.imageUrl}
@@ -67,4 +79,4 @@ const TranslateTeam = async ({ lang }: TranslateTeamProps) => {
   );
 };
 
-export default TranslateTeam;
+export default FullTranslateTeam;

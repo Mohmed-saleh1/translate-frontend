@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { getTranslations } from "../../../lib/i18n";
 import ContactPageStyles from "./ContactPage.module.css";
 import Image from "next/image";
@@ -8,7 +7,7 @@ export default async function ContactPage({ params }: any) {
   const t = await getTranslations(params.lang);
 
   return (
-    <div>
+    <div className={ContactPageStyles.background}>
       <div>
         <Image
           src="/assets/contact-header.jpg"

@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { useState } from "react";
@@ -133,9 +132,12 @@ export default function QuoteForm({ t }: { t: any }) {
           onChange={handleChange}
         >
           <option value="">{t.quote.selectLanguage}</option>
-          <option value="fr">French</option>
-          <option value="es">Spanish</option>
-          <option value="de">German</option>
+          <option value="en">{t.languages.en}</option>
+          <option value="ar">{t.languages.ar}</option>
+          <option value="fr">{t.languages.fr}</option>
+          <option value="es">{t.languages.es}</option>
+          <option value="de">{t.languages.de}</option>
+          <option value="it">{t.languages.it}</option>
         </select>
       </div>
 

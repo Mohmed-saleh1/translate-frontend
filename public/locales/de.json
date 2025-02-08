@@ -1,6 +1,15 @@
 {
+  "languages": {
+    "en": "Englisch",
+    "ar": "Arabisch",
+    "fr": "Französisch",
+    "es": "Spanisch",
+    "de": "Deutsch",
+    "it": "Italienisch"
+  },
   "nav": {
     "home": "Startseite",
+    "team": "Team",
     "title": "SA COSMOS",
     "subtitle": "Übersetzungsdienste",
     "translate": "SA Übersetzen",
@@ -28,7 +37,8 @@
   },
   "contact": {
     "title": "Kontaktiere uns",
-    "name": "Name",
+    "fname": "Vorname",
+    "lname": "Nachname",
     "email": "E-Mail",
     "message": "Nachricht",
     "submit": "Absenden"
@@ -51,6 +61,7 @@
     "privacyPolicy": "Datenschutzrichtlinie"
   },
   "services": {
+    "title": "Unsere Übersetzungsdienste",
     "documentTranslations": {
       "title": "Dokumentenübersetzungen",
       "description": "Übersetzen Sie alle Arten von Dokumenten."
@@ -69,6 +80,7 @@
     }
   },
   "whyCosmos": {
+    "title": "Warum Cosmos",
     "certifiedTranslation": "Zertifizierte Übersetzung",
     "certifiedTranslationTitle": "Zertifizierte Übersetzung",
     "certifiedTranslationDesc": "Zertifizierte Übersetzungen sind für offizielle Zwecke gedacht, bei denen der Empfänger eine Zertifizierung benötigt, um zu überprüfen, dass die Übersetzung vollständig und korrekt ist",
@@ -107,6 +119,26 @@
       "name": "Kyung-Mi Kim",
       "title": "Autorisierter Übersetzer",
       "languages": ["Koreanisch", "Deutsch"]
+    },
+    "alex": {
+      "name": "Aleksandre Abesadze",
+      "title": "Vereidigter Dolmetscher und autorisierter Übersetzer",
+      "languages": ["Georgisch", "Deutsch"]
+    },
+    "serhiy": {
+      "name": "Serhiy Mokhov",
+      "title": "Vereidigter Dolmetscher und autorisierter Übersetzer",
+      "languages": ["Russisch", "Ukrainisch", "Deutsch"]
+    },
+    "mehdy": {
+      "name": "Mehdy Sattari",
+      "title": "Dolmetscher und Übersetzer",
+      "languages": ["Farsi / Dari", "Deutsch"]
+    },
+    "gulbahar": {
+      "name": "Gülbahar Candan",
+      "title": "Vereidigter Dolmetscher und autorisierter Übersetzer",
+      "languages": ["Kurmanci (Zazaki)", "Türkisch", "Deutsch"]
     }
   },
   "quote": {

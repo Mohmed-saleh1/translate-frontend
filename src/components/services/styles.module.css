@@ -1,11 +1,20 @@
+.rootcontainer {
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
   padding: 20px;
-  background-color: #f8f9fa;
-  /* flex-direction: row; */
+  flex-direction: row;
 }
 
 .service {
@@ -27,7 +36,11 @@
 .serviceImage {
   width: 100%;
   height: auto;
-  border-radius: 50%;
+  border-top-left-radius: 45%;
+  border-bottom-left-radius: 60%;
+  border-top-right-radius: 70%;
+  border-bottom-right-radius: 40%;
+
   margin-bottom: 10px;
   transition: transform 0.3s ease;
 }

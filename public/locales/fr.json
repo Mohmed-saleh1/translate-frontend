@@ -1,6 +1,15 @@
 {
+  "languages": {
+    "en": "Anglais",
+    "ar": "Arabe",
+    "fr": "Français",
+    "es": "Espagnol",
+    "de": "Allemand",
+    "it": "Italien"
+  },
   "nav": {
     "home": "Accueil",
+    "team": "Équipe",
     "title": "SA COSMOS",
     "subtitle": "Services de Traduction",
     "translate": "SA Traduire",
@@ -28,7 +37,8 @@
   },
   "contact": {
     "title": "Contactez-nous",
-    "name": "Nom",
+    "fname": "Prénom",
+    "lname": "Nom de famille",
     "email": "E-mail",
     "message": "Message",
     "submit": "Soumettre"
@@ -51,6 +61,7 @@
     "privacyPolicy": "Politique de confidentialité"
   },
   "services": {
+    "title": "Nos Services de Traduction",
     "documentTranslations": {
       "title": "Traductions de documents",
       "description": "Traduisez tous types de documents."
@@ -69,6 +80,7 @@
     }
   },
   "whyCosmos": {
+    "title": "Pourquoi Cosmos",
     "certifiedTranslation": "Traduction Certifiée",
     "certifiedTranslationTitle": "Traduction Certifiée",
     "certifiedTranslationDesc": "Les traductions certifiées sont destinées aux usages officiels où votre destinataire nécessite une certification pour vérifier que la traduction est complète et précise",
@@ -101,12 +113,32 @@
       "name": "Kyung-Mi Kim",
       "title": "Traducteur Autorisé",
       "languages": ["Coréen", "Allemand"]
+    },
+    "alex": {
+      "name": "Aleksandre Abesadze",
+      "title": "Interprète assermenté et traducteur autorisé",
+      "languages": ["Géorgien", "Allemand"]
+    },
+    "serhiy": {
+      "name": "Serhiy Mokhov",
+      "title": "Interprète assermenté et traducteur autorisé",
+      "languages": ["Russe", "Ukrainien", "Allemand"]
+    },
+    "mehdy": {
+      "name": "Mehdy Sattari",
+      "title": "Interprètes et traducteurs",
+      "languages": ["Persan / Dari", "Allemand"]
+    },
+    "gulbahar": {
+      "name": "Gülbahar Candan",
+      "title": "Interprète assermenté et traducteur autorisé",
+      "languages": ["Kurmanci (Zazaki)", "Turc", "Allemand"]
     }
   },
   "quote": {
     "title": "Demander un devis",
-    "firstName": "Prénom",
-    "lastName": "Nom",
+    "fname": "Prénom",
+    "lname": "Nom de famille",
     "email": "E-mail",
     "phoneNumber": "Numéro de téléphone",
     "website": "Site web",
