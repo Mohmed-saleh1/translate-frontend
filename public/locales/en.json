@@ -91,8 +91,12 @@
     "assistRollTitle": "Assist Roll",
     "assistRollDesc": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from 'de Finibus Bonorum et Malorum'"
   },
+  "clients": {
+    "title": "Our clients are spread all over the world",
+    "description": "We place great importance on taking our clients’ cultural, religious and social backgrounds into consideration in order to build a trusting relationship. Our goal is to provide culturally sensitive translation to ensure optimal communication."
+  },
   "team": {
-    "title": "SA Translate Team",
+    "title": "Our Translate Team",
     "viewAllButton": "View All Team",
     "nadaMarijaBach": {
       "name": "Nada-Marija Bach",

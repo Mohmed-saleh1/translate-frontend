@@ -79,6 +79,10 @@
       "description": "Übersetzen Sie Bücher und Manuskripte."
     }
   },
+  "clients": {
+    "title": "Unsere Kunden sind auf der ganzen Welt verteilt",
+    "description": "Wir legen großen Wert darauf, die kulturellen, religiösen und sozialen Hintergründe unserer Kunden zu berücksichtigen, um eine vertrauensvolle Beziehung aufzubauen. Unser Ziel ist es, kulturell sensible Übersetzungen zu bieten, um eine optimale Kommunikation zu gewährleisten."
+  },
   "whyCosmos": {
     "title": "Warum Cosmos",
     "certifiedTranslation": "Zertifizierte Übersetzung",

@@ -79,6 +79,10 @@
       "description": "Traduce libros y manuscritos."
     }
   },
+  "clients": {
+    "title": "Nuestros clientes están repartidos por todo el mundo",
+    "description": "Le damos gran importancia a tener en cuenta los antecedentes culturales, religiosos y sociales de nuestros clientes para construir una relación de confianza. Nuestro objetivo es proporcionar traducciones culturalmente sensibles para garantizar una comunicación óptima."
+  },
   "whyCosmos": {
     "title": "Por Qué Cosmos",
     "certifiedTranslation": "Traducción Certificada",

@@ -4,7 +4,8 @@ import Image from "next/image";
 import ContactForm from "./ContactForm";
 
 export default async function ContactPage({ params }: any) {
-  const t = await getTranslations(params.lang);
+  const { lang } = await params;
+  const t = await getTranslations(lang);
 
   return (
     <div className={ContactPageStyles.background}>

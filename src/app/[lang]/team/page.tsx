@@ -3,7 +3,7 @@ import styles from "./TeamPage.module.css";
 import { getTranslations } from "../../../lib/i18n";
 import Image from "next/image";
 
-export default async function TeamPage({ params }: any) {
+async function TeamPage({ params }: any) {
   const { lang } = await params;
 
   const t = await getTranslations(lang);
@@ -82,3 +82,4 @@ export default async function TeamPage({ params }: any) {
     </div>
   );
 }
+export default TeamPage;
