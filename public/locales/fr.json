@@ -41,7 +41,20 @@
     "lname": "Nom de famille",
     "email": "E-mail",
     "message": "Message",
-    "submit": "Soumettre"
+    "submit": "Soumettre",
+    "offices": [
+      {
+        "title": "Bureau à Tunisie:",
+        "phone": "+216 – 22322545",
+        "address": "35 Chedly kaïlela. 3ème étage\nTUN - 1002 Tunis"
+      },
+      {
+        "title": "Bureau en Allemagne:",
+        "phone": "+49 231 - 628 359 46",
+        "address": "Kaiserstraße 10\nDE-44135 Dortmund"
+      }
+    ],
+    "commonEmail": "info@sa-translate.de"
   },
   "footer": {
     "companyName": "SA COSMOS",
@@ -141,6 +154,7 @@
   },
   "quote": {
     "title": "Demander un devis",
+    "description": "Vous souhaitez un devis gratuit et sans engagement ? Veuillez remplir le formulaire et nous envoyer les fichiers directement. En examinant de plus près vos demandes de traduction, nous pourrons calculer les coûts plus précisément. Bien sûr, vous pouvez également envoyer vos demandes par courrier, fax ou email.",
     "fname": "Prénom",
     "lname": "Nom de famille",
     "email": "E-mail",

@@ -5,11 +5,21 @@
   padding: 20px;
   background-color: #f9f9f9;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 22px 4px rgba(206, 45, 198, 0.1);
   max-width: 600px;
   margin: 40px auto;
 }
-
+.quotepagecontainer {
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.textClass {
+  font-size: 18px;
+  width: auto;
+}
 .inputGroup {
   display: flex;
   flex-direction: column;
@@ -57,5 +67,12 @@
   .form {
     max-width: 90%;
     padding: 15px;
+  }
+  .quotepagecontainer {
+    margin: 10px;
+  }
+  .textClass {
+    font-size: 14px;
+    width: auto;
   }
 }

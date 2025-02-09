@@ -28,6 +28,20 @@ const MobileMenu = ({ lang, translations }: MobileMenuProps) => {
       <div className={`${styles.mobileMenu} ${isOpen ? styles.open : ""}`}>
         <Link
           className={styles.navLink}
+          href={`/${lang}/home`}
+          onClick={() => setIsOpen(false)}
+        >
+          {translations.nav.home}
+        </Link>
+        <Link
+          className={styles.navLink}
+          href={`/${lang}/team`}
+          onClick={() => setIsOpen(false)}
+        >
+          {translations.nav.team}
+        </Link>
+        <Link
+          className={styles.navLink}
           href={`/${lang}/about`}
           onClick={() => setIsOpen(false)}
         >
@@ -39,13 +53,6 @@ const MobileMenu = ({ lang, translations }: MobileMenuProps) => {
           onClick={() => setIsOpen(false)}
         >
           {translations.nav.contact}
-        </Link>
-        <Link
-          className={styles.navLink}
-          href={`/${lang}/home`}
-          onClick={() => setIsOpen(false)}
-        >
-          {translations.nav.home}
         </Link>
       </div>
     </div>

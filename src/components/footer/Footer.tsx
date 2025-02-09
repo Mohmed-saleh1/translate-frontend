@@ -19,10 +19,11 @@ const Footer: React.FC<FooterProps> = async ({ lang }) => {
             src="/assets/sa-cosmos-dark-logo-.webp"
             alt="SA Cosmos Logo"
             width={100}
-            height={100}
+            height={200}
+            layout="responsive"
             priority
           />
-          <h3>{t.footer.companyName}</h3>
+          <h1>{t.footer.companyName}</h1>
         </div>
 
         <div className={styles.info}>

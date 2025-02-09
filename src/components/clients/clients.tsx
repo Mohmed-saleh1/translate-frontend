@@ -19,12 +19,13 @@ const Clients: React.FC<ClientsProps> = async ({ lang }) => {
             alt="Descriptive Image Text"
             width={150}
             height={150}
-            layout="reponsive"
+            layout="responsive"
+            unoptimized
           />
         </div>
 
         <div className={styles.textChild}>
-          <h1 className={styles.title}>{t.clients.title}</h1>
+          <h2 className={styles.title}>{t.clients.title}</h2>
           <p>{t.clients.description}</p>
         </div>
       </div>

@@ -41,7 +41,20 @@
     "lname": "Nachname",
     "email": "E-Mail",
     "message": "Nachricht",
-    "submit": "Absenden"
+    "submit": "Absenden",
+    "offices": [
+      {
+        "title": "Büro in Tunesien:",
+        "phone": "+216 – 22322545",
+        "address": "35 Chedly kaïlela. 3. Etage\nTUN - 1002 Tunis"
+      },
+      {
+        "title": "Büro in Deutschland:",
+        "phone": "+49 231 - 628 359 46",
+        "address": "Kaiserstraße 10\nDE-44135 Dortmund"
+      }
+    ],
+    "commonEmail": "info@sa-translate.de"
   },
   "footer": {
     "companyName": "SA COSMOS",
@@ -147,6 +160,7 @@
   },
   "quote": {
     "title": "Angebot anfordern",
+    "description": "Möchten Sie ein kostenloses und unverbindliches Angebot? Bitte füllen Sie das Formular aus und senden Sie die Dateien direkt an uns. Durch eine genauere Betrachtung Ihrer Übersetzungsanfragen können wir die Kosten genauer berechnen. Natürlich können Sie Ihre Anfragen auch per Post, Fax oder E-Mail senden.",
     "firstName": "Vorname",
     "lastName": "Nachname",
     "email": "E-Mail",

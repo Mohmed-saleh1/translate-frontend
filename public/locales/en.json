@@ -41,7 +41,20 @@
     "lname": "Last Name",
     "email": "Email",
     "message": "Message",
-    "submit": "Submit"
+    "submit": "Submit",
+    "offices": [
+      {
+        "title": "Office in Tunisia:",
+        "phone": "+216 – 22322545",
+        "address": "35 Chedly kaïlela. 3rd floor\nTUN - 1002 Tunis"
+      },
+      {
+        "title": "Office in Germany:",
+        "phone": "+49 231 - 628 359 46",
+        "address": "Kaiserstraße 10\nDE-44135 Dortmund"
+      }
+    ],
+    "commonEmail": "info@sa-translate.de"
   },
   "footer": {
     "companyName": "SA COSMOS",
@@ -141,6 +154,7 @@
   },
   "quote": {
     "title": "Request a Quote",
+    "description": "You would like a free, non-binding quote? Please fill in the form and send the files directly to us. By taking a closer look at your translation requests, we will be able to calculate the costs more accurately. Of course, you can also send your requests by mail, fax or email.",
     "firstName": "First Name",
     "lastName": "Last Name",
     "email": "Email",

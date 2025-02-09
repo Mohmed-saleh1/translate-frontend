@@ -41,7 +41,20 @@
     "lname": "Apellido",
     "email": "Correo electrónico",
     "message": "Mensaje",
-    "submit": "Enviar"
+    "submit": "Enviar",
+    "offices": [
+      {
+        "title": "Oficina en Túnez:",
+        "phone": "+216 – 22322545",
+        "address": "35 Chedly kaïlela. 3º piso\nTUN - 1002 Túnez"
+      },
+      {
+        "title": "Oficina en Alemania:",
+        "phone": "+49 231 - 628 359 46",
+        "address": "Kaiserstraße 10\nDE-44135 Dortmund"
+      }
+    ],
+    "commonEmail": "info@sa-translate.de"
   },
   "footer": {
     "companyName": "SA COSMOS",
@@ -141,6 +154,7 @@
   },
   "quote": {
     "title": "Solicitar un presupuesto",
+    "description": "¿Le gustaría un presupuesto gratuito y sin compromiso? Por favor, complete el formulario y envíe los archivos directamente a nosotros. Al analizar más de cerca sus solicitudes de traducción, podremos calcular los costos con mayor precisión. Por supuesto, también puede enviar sus solicitudes por correo, fax o correo electrónico.",
     "firstName": "Nombre",
     "lastName": "Apellido",
     "email": "Correo electrónico",
