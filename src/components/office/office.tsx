@@ -1,4 +1,4 @@
-import { Locale } from "@/config/i18n";
+import { Locale } from "../../config/i18n";
 import styles from "./contact.module.css";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import { getTranslations } from "@/lib/i18n";

@@ -1,4 +1,4 @@
-import Clients from "@/components/clients/clients";
+import Clients from "../../../components/clients/clients";
 import ContactForm from "../../../components/contactForm/ContactForm";
 import TranslationServices from "../../../components/services/TranslationServices";
 import TranslateTeam from "../../../components/team/TranslateTeam";

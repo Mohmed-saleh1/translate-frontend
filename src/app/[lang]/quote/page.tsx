@@ -1,4 +1,3 @@
-import ContactCard from "@/components/office/office";
 import { getTranslations } from "../../../lib/i18n";
 import QuoteForm from "./QuoteForm";
 import styles from "./QuoteForm.module.css";
